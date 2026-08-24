@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>PURIKURA BOOTH - サブ画面</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Zen+Maru+Gothic:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="sub-body">
+
+<div class="sub-screen">
+  <div class="sub-main-area">
+    <div id="sub-camera-view" class="sub-camera-view" style="display:none;">
+      <img id="sub-camera-img" class="sub-camera-img" alt="カメラプレビュー">
+      <div id="sub-camera-caption" class="sub-camera-caption" style="display:none;"></div>
+    </div>
+    <div id="sub-ad-layer" class="idle-ad-layer sub-ad-layer"></div>
+  </div>
+  <div id="sub-ad-bar" class="sub-ad-bar"></div>
+  <div id="sub-offline-notice" class="sub-offline-notice" style="display:none;">
+    メイン画面が見つかりません。<br>メイン画面(index.html)を同じブラウザで開いておいてください。
+  </div>
+</div>
+
+<script src="ads.js"></script>
+<script src="sub.js"></script>
+</body>
+</html>
